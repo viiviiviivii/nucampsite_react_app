@@ -19,7 +19,6 @@ class Main extends Component {
     this.setState({selectedCampsite: campsiteId})
   }
 
-
   render() {
       return (
           <div>
