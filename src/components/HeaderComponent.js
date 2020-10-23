@@ -6,7 +6,7 @@ class Header extends Component {
 
     constructor(props) {
         super(props);
-        
+
         this.toggleNav = this.toggleNav.bind(this);
         this.state= {
             isNavOpen: false
@@ -50,7 +50,7 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
+                                        <i className="fa fa-info fa-lg" /> About Us
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
